@@ -1,0 +1,5 @@
+checksafe_storage/
+*.log
+.env
+Thumbs.db
+.DS_Store

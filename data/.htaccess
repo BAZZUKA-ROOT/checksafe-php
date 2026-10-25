@@ -1,0 +1,8 @@
+# Bloqueia acesso direto aos dados antigos, caso exista data/consultas.json
+Require all denied
+Deny from all
+Options -Indexes
+<FilesMatch "\.(json|log|txt|php)$">
+  Require all denied
+  Deny from all
+</FilesMatch>
